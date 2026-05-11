@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600');
+/* @import url("https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|PT+Serif:400,400i,700,700i"); */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+body {
+    min-height: 100vh;
+    justify-content: center;
+    /* background-color: gray; */
+    background-color: #fff;
+    font: 16px/1.5 'Source Sans Pro', sans-serif; 
+}
+
+header {
+    background-size: cover;
+    background-position: center; 
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('./Flag_of_Spain.svg.png');  
+    object-fit: contain;
+    background-repeat: no-repeat;
+    color: black; 
+    margin-bottom: 3em;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+    padding: 1em;
+    font-size: 2rem;
+}
+.header-title h1{
+    font: 36px;
+    margin-top: -0.8em;
+    font-style: italic;
+    opacity: 0.7;
+    
+} 
+.header-title p {
+    font-style: italic; 
+    opacity: 0.7;
+}
+
+
+.inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:0.5em;
+    flex-wrap: wrap; 
+    
+    
+}
+
+.section-cards .card:hover, .card1:hover, .card2:hover, .card3:hover, .card4:hover, .card5:hover, .card6:hover,
+ .card7:hover,.card8:hover, .card9:hover, .card10:hover, .card11:hover {
+    transform: scale(1.05);
+}
+
+.card, .card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9, .card10, .card11{
+    border: 1px solid gray;
+    border-radius: 0.3em;
+    width: 500px;
+    height: 550px;
+    padding: 1em;
+    background: #fff;
+    
+    
+}
+.card{
+    background-size: cover; /* Разтяга, за да запълни, запазвайки пропорциите */
+    background-position: center; /* Центрира снимката */
+    object-fit: contain;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('./barselona.avif');   
+    padding: 2em;
+}
+
+.card1{
+    background-size: cover; /* Разтяга, за да запълни, запазвайки пропорциите */
+    background-position: center; /* Центрира снимката */
+    object-fit: contain;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('./valencia.jpg');  
+    margin-left: 1em;
+    padding: 2em;
+}
+
+.card2{
+    background-size: cover; /* Разтяга, за да запълни, запазвайки пропорциите */
+    background-position: center; /* Центрира снимката */
+    object-fit: contain;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)), url('./alicante.jpg');  
+    margin-left: 1em;
+    padding: 2em;
+}
+
+.card3{
+    background-size: cover; /* Разтяга, за да запълни, запазвайки пропорциите */
+    background-position: center; /* Центрира снимката */
+    object-fit: contain;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)), url('./benidorm1.webp');  
+    margin-left: 1em;
+    padding: 2em;
+    margin-top: 2em;
+    
+}
+
+.card4{
+    background-size: cover; /* Разтяга, за да запълни, запазвайки пропорциите */
+    background-position: center; /* Центрира снимката */
+    object-fit: contain;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)), url('./guadales.jpg');  
+    margin-left: 1em;
+    padding: 2em;
+    margin-top: 2em;
+    
+}
+
+.card5{
+    background-size: cover; /* Разтяга, за да запълни, запазвайки пропорциите */
+    background-position: center; /* Центрира снимката */
+    object-fit: contain;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)), url('./altea3.avif');  
+    margin-left: 1em;
+    padding: 2em;
+    margin-top: 2em;
+    
+}
+.card6{
+    background-size: cover; /* Разтяга, за да запълни, запазвайки пропорциите */
+    /* background-position: center; Центрира снимката */
+    object-fit: contain;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.001)), url('./seville.jpg');  
+    margin-left: 1em;
+    padding: 2em; 
+    margin-top: 2em;
+    background-position: top left; 
+    
+}
+
+.card7{
+    background-size: cover; /* Разтяга, за да запълни, запазвайки пропорциите */
+    /* background-position: center; Центрира снимката */
+    object-fit: contain;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.001)), url('./malaga5.jpg');  
+    margin-left: 1em;
+    padding: 2em; 
+    margin-top: 2em;
+    background-position: top left; 
+    
+}
+
+.card8{
+    background-size: cover; /* Разтяга, за да запълни, запазвайки пропорциите */
+    object-fit: contain;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)), url('./marbella.webp');   
+    margin-left: 1em;
+    padding: 2em; 
+    margin-top: 2em;
+    background-position: top left;  
+    
+}
+
+.card9{
+    background-size: cover; /* Разтяга, за да запълни, запазвайки пропорциите */
+    background-position: center; 
+    object-fit: contain;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.001)), url('./ronda111.jpg');   
+    margin-left: 1em;
+    padding: 2em; 
+    margin-top: 2em;
+    
+}
+.card10{
+    background-size: cover; /* Разтяга, за да запълни, запазвайки пропорциите */
+    background-position: top left; 
+    object-fit: contain;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)), url('./setinil1.jpg');   
+    margin-left: 1em;
+    padding-top: 2em; 
+    margin-top: 2em;
+    
+}
+.card11{
+    background-size: cover; /* Разтяга, за да запълни, запазвайки пропорциите */
+    background-position: top right; 
+    object-fit: contain;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)), url('./gibraltar11.jpg');   
+    margin-left: 1em;
+    padding: 2em; 
+    margin-top: 2em;
+}
+
+
+.card-header h3 {
+    margin-bottom: 2em;
+    text-align: center;
+    font-size: 28px;
+    font-style: italic;
+    opacity: 0.7;
+    text-transform: uppercase;
+}
+
+
+.button {
+    padding-top: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} 
+
+button {
+    padding: 0.7em 3.5em;
+    background: black;
+    color: white;
+    font-style: bold;
+    letter-spacing: 0.05em;
+    text-transform: uppercase; 
+    font-style: italic;
+    opacity: 0.8;
+    border-radius: 1.5em;
+    border: none;
+    margin: 1em;
+    transition-duration: 0.3s;
+    
+}
+button:hover{
+    color: black;
+    background-color: white; 
+    cursor: pointer;  
+} 
+
+#btn-more {
+    text-decoration: none;
+    color: inherit; 
+}
+#btn-more:hover{
+    color: inherit;
+} 
+
+footer {
+    background: #AD1519;
+    text-align: center;
+    color: white;  
+    padding: 1em 0;
+    margin-top: 7em;
+}
+
+
+
+
+

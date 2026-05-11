@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600');
+/* @import url("https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|PT+Serif:400,400i,700,700i"); */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+body {
+    min-height: 100vh;
+    justify-content: center;
+    background-color: #fff;
+    font: 16px/1.5 'Source Sans Pro', sans-serif; 
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(150, 150, 150, 0.5);
+  border-radius: 4px;
+}
+
+
+.buttons{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1em;
+}
+
+
+
+#btn-back, #btn-next {
+    padding: 0.7em 3.5em;
+    background: black;
+    color: white;
+    font-style: bold;
+    letter-spacing: 0.05em;
+    text-transform: uppercase; 
+    font-style: italic;
+    opacity: 0.8;
+    border-radius: 1.5em;
+    border: none;
+    margin: 1em;
+    transition-duration: 0.3s;
+    text-decoration: none;
+}
+
+#btn-back:hover, #btn-next:hover{
+    color: black;
+    background-color: rgb(231, 229, 227);
+    box-shadow: 0 0.5rem 1rem 0.5rem rgba(101, 97, 97, 0.3); 
+    cursor: pointer;  
+} 
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(150, 150, 150, 0.5);
+  border-radius: 4px;
+}
+
+.back-to-top {
+  position: fixed; 
+  bottom: 20px;
+  right: 5px;
+  /* border: 0.1px solid #000; */
+  background-color: transparent;
+  color: black;
+  padding: 5px; 
+  border-radius: 1.5em; 
+  text-decoration: none;
+    box-shadow: 0 0.5rem 1rem 0.5rem rgba(101, 97, 97, 0.3); 
+  z-index: 1000;
+   opacity: 1;
+  visibility: visible;
+  transition: all 0.2s ease;
+}
+
+.header-title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: 0 0 35%;
+    box-shadow: 0 0.5rem 1rem 0.5rem rgba(101, 97, 97, 0.3); 
+    margin: 1em;
+    background-color: silver;
+    border-radius: 15px 50px;
+   
+    
+}
+
+
+.header-title h1 {
+    margin-bottom: 0.5em;
+    font-size: 36px;
+    font-weight: 550;
+    font-style: italic;
+    opacity: 0.7;
+    margin-top: -1em;
+}
+.header-title p {
+    font-size: 18px;
+    font-weight: 100;
+    font-style: italic;
+    opacity: 0.9;
+    margin-bottom: 1em;
+}
+
+
+article {
+    /* display: flex; */
+    text-align: center;
+    /* flex: 0 0 35%; */
+    box-shadow: 0 0.3rem 1rem 0.3rem rgba(0,0,0,0.3); 
+    margin: 1em;
+    background-color: silver;
+    border-radius: 15px 50px;
+    padding: 2em;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    
+}
+
+.contain h2{
+    font-style: italic;
+    opacity: 0.7;
+    font-weight: 550;
+    margin-bottom: 1em;
+    margin-top: 3em;
+}
+.contain p {
+    font-size: 18px;
+    font-weight: 100;
+    font-style: italic;
+    opacity: 0.9;
+    margin-bottom: 3em;
+    line-height: 2;
+    
+    
+}
+
+
+.images{
+    display: flex;
+    /* justify-content: space-between; */
+    text-align: center;
+     gap: 2em; 
+  
+    
+}
+
+img#casa{
+    display: block;
+    width: 350px;
+    height: 250px;  
+    margin: 1em; 
+    
+}
+
+div.bath, div.tower, div.gothic{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    
+    
+}
+
+#calpe{
+    display: block;
+    width: 98%;
+    height: 320px;  
+    margin: 1em; 
+     object-fit: cover;
+
+    
+}
+.altea{
+    background-color: lightgray;
+}
+
+.description{
+    display: flex;
+    /* text-align: center; */
+    margin: 1em;
+     padding: 1em;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 15px 50px;
+    justify-content: center;
+    align-items: center;
+    /* gap:3em; */
+
+  
+ 
+}
+
+.beaches{
+    display: flex;
+    justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(222, 220, 220);
+    border: 1px solid #fff;
+    border-radius: 15px 50px;
+    padding: 1em;
+    gap: 1em;
+    margin-top: 5em;
+   
+}
+
+
+
+footer {
+    background: #AD1519;
+    text-align: center;
+    color: white;  
+    padding: 1em 0;
+    margin-top: 7em;
+    
+}
+
