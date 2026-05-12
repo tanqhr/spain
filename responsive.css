@@ -1,100 +1,204 @@
-@media (max-width: 1290px) {
-    
-    body{
-        font: 16px/1.5 'Source Sans Pro', sans-serif; 
-        
+
+@media (max-width: 1024px) {
+
+    header {
+        height: 500px;
+        margin-bottom: 2em;
+        background-position: center;
     }
-    
-    /* .section{
+
+    section {
+        font-size: 1.5rem;
+        padding: 1em;
+    }
+
+    .header-title h1 {
+        font-size: 32px;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .header-title p {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .inner {
+        gap: 1.5em;
+        padding: 1em;
+    }
+
+    .card,
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5,
+    .card6,
+    .card7,
+    .card8,
+    .card9,
+    .card10,
+    .card11 {
+
+        width: 45%;
+        height: 450px;
+
+        margin-left: 0;
+        margin-top: 0;
+
+        padding: 1.5em;
+    }
+
+    .card-header h3 {
+        font-size: 22px;
+        margin-bottom: 1.5em;
+    }
+
+    .button {
+        padding-top: 12em;
+    }
+
+    button {
+        padding: 0.7em 2.5em;
+        font-size: 14px;
+    }
+}
+
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+@media (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    header {
+        height: 350px;
+        padding: 1em;
+        margin-bottom: 2em;
+        background-position: center;
+    }
+
+    section {
+        font-size: 1.2rem;
+        padding: 0.5em;
+    }
+
+    .header-title h1 {
+        font-size: 26px;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .header-title p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .inner {
         flex-direction: column;
+        gap: 1.5em;
+        padding: 0.5em;
     }
-    
-     */
 
-    
-   .inner{
-    margin-left: -1em;
-   }
+    .card,
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5,
+    .card6,
+    .card7,
+    .card8,
+    .card9,
+    .card10,
+    .card11 {
 
-    
+        width: 100%;
+        max-width: 400px;
 
- header{
-    /* width: auto; */
-     /* background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('./IMG_6797.jpeg');   */
-     background-color: #AD1519;
-     background-image: none;
-     height: 300px;
-  
- }
+        height: 380px;
 
-.header-title {
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 1em;
-    font-size: 1.5em;
-} 
-
-.card3, .card4, .card5, .card6, .card7, .card8, .card9, .card10, .card11{
-    margin-top: 0.1em;
-}
-
-.section-cards .card:hover, .card1:hover, .card2:hover, .card3:hover, .card4:hover, .card5:hover, .card6:hover,
- .card7:hover,.card8:hover, .card9:hover, .card10:hover, .card11:hover {
-    transform: scale(1.01);
-}
-
-@media (min-width: 600px) {
-    html { font-size: 14px; }
-}
-
-@media (min-width: 900px) {
-    html { font-size: 16px; }
-}
-
-@media (min-width: 1200px) {
-    html { font-size: 18px; }
-}
-
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-size: 1em;
-    line-height: 1.2;
-    margin: 1em 0 0.5em 0;
-    padding: 0;
-}
-
-h1 {
-    font-size: 2.2rem;
-}
-
-h2 {
-    font-size: 2.0rem;
-}
-
-h3 {
-    font-size: 1.8rem;
-}
-
-h4 {
-    font-size: 1.6rem;
-}
-
-h5 {
-    font-size: 1.4rem;
-}
-
-h6 {
-    font-size: 1.2rem;
-}
-
-p {
-    margin: 0;
-    padding-bottom: 1.5rem;
-}
-
+        margin: 0;
+        padding: 1em;
     }
+
+    .card-header h3 {
+        font-size: 20px;
+        margin-bottom: 1em;
+    }
+
+    .button {
+        padding-top: 12em;
+    }
+
+    button {
+        /* width: 100%;
+        max-width: 220px; */
+
+        padding: 0.8em 1em;
+        width: auto;
+        max-width: unset;
+        /* padding: 0.7em 3.5em; */
+
+        font-size: 13px;
+    }
+
+    footer {
+        margin-top: 4em;
+        font-size: 14px;
+    }
+}
+
+
+/* =========================
+   SMALL MOBILE DEVICES
+========================= */
+@media (max-width: 480px) {
+
+    header {
+        height: 280px;
+    }
+
+    .header-title h1 {
+        font-size: 22px;
+    }
+
+    .header-title p {
+        font-size: 14px;
+    }
+
+    .card,
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5,
+    .card6,
+    .card7,
+    .card8,
+    .card9,
+    .card10,
+    .card11 {
+
+        height: 320px;
+    }
+
+    .card-header h3 {
+        font-size: 18px;
+    }
+
+    .button {
+        padding-top: 10em;
+    }
+
+    button {
+        font-size: 12px;
+         width: auto;
+        padding: 0.7em 2.5em;
+        /* font-size: 14px; */
+    }
+}
