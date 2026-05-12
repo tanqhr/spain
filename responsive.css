@@ -23,13 +23,27 @@
         padding: 0.5em;
     }
 
-    .section section-cards{
-
-        flex-direction: column;
+    section .section{
+       flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         padding: 0.5em;
 
 
     }
+
+    header {
+    
+max-height: 1200px;
+    max-width:1200px;
+    background-size: cover;
+
+}
+
+header-title {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 1em;
+    font-size: 1.5em;
+}
     }

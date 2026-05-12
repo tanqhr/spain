@@ -27,10 +27,13 @@ body {
 }
 
 header {
+   
     background-size: cover;
     background-position: center; 
     width: 100%;
     height: 700px;
+    margin: 0 auto;
+    background-position: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('./Flag_of_Spain.svg.png');  
     object-fit: contain;
     background-repeat: no-repeat;
