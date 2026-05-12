@@ -1,4 +1,52 @@
 
+
+/* 
+/* =========================
+   ULTRA WIDE SCREENS
+========================= */
+/*  */
+@media (min-width: 2230px) {
+
+    .inner {
+        max-width: 2200px;
+        gap: 2em;
+    }
+    .button {
+        padding-top: 14em;
+    }
+
+    button {
+        padding: 1em 4.5em;
+
+        font-size: 20px;
+
+        border-radius: 2em;
+    }
+   
+
+    .card,
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5,
+    .card6,
+    .card7,
+    .card8,
+    .card9,
+    .card10,
+    .card11 {
+
+        width: calc(33.333% - 2em);
+
+        min-width: 500px;
+        max-width: 650px;
+
+        height: 700px;
+    }
+} 
+
+
 @media (max-width: 1024px) {
 
     header {
@@ -16,6 +64,7 @@
         font-size: 32px;
         margin-top: 0;
         text-align: center;
+         margin-top: -0.8em;
     }
 
     .header-title p {
@@ -76,7 +125,7 @@
     }
 
     header {
-        height: 350px;
+        height: 380px;
         padding: 1em;
         margin-bottom: 2em;
         background-position: center;
@@ -91,11 +140,13 @@
         font-size: 26px;
         text-align: center;
         margin-top: 0;
+         margin-top: -0.8em;
     }
 
     .header-title p {
         font-size: 16px;
         text-align: center;
+        
     }
 
     .inner {
@@ -165,10 +216,13 @@
 
     .header-title h1 {
         font-size: 22px;
+         margin-top: -0.8em;
+       
     }
 
     .header-title p {
         font-size: 14px;
+       
     }
 
     .card,
