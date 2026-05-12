@@ -35,7 +35,7 @@ header {
     margin: 0 auto;
     background-position: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('./Flag_of_Spain.svg.png');  
-    object-fit: contain;
+    /* object-fit: contain; */
     background-repeat: no-repeat;
     color: black; 
     margin-bottom: 3em;
