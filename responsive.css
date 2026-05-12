@@ -5,37 +5,42 @@
         
     }
     
-    .section{
+    /* .section{
         flex-direction: column;
     }
     
-    
+     */
 
     
+   .inner{
+    margin-left: -1em;
+   }
+
     
-    article{
-        
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0.5em;
-    }
 
-    .inner{
-       flex-wrap: wrap;
-   
-        padding: 0.5em;
-
-
-    }
-
- 
+ header{
+    /* width: auto; */
+     /* background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('./IMG_6797.jpeg');   */
+     background-color: #AD1519;
+     background-image: none;
+     height: 300px;
+  
+ }
 
 .header-title {
     margin: 0 auto;
     text-align: center;
     margin-top: 1em;
     font-size: 1.5em;
+} 
+
+.card3, .card4, .card5, .card6, .card7, .card8, .card9, .card10, .card11{
+    margin-top: 0.1em;
+}
+
+.section-cards .card:hover, .card1:hover, .card2:hover, .card3:hover, .card4:hover, .card5:hover, .card6:hover,
+ .card7:hover,.card8:hover, .card9:hover, .card10:hover, .card11:hover {
+    transform: scale(1.01);
 }
 
 @media (min-width: 600px) {
