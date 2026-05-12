@@ -90,7 +90,8 @@ section {
     background-size: cover; /* Разтяга, за да запълни, запазвайки пропорциите */
     background-position: center; /* Центрира снимката */
     object-fit: contain;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('./barselona.avif');   
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('./barselona.avif'); 
+    margin-left: 1em;  
     padding: 2em;
 }
 
@@ -99,7 +100,7 @@ section {
     background-position: center; /* Центрира снимката */
     object-fit: contain;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('./valencia.jpg');  
-    margin-left: 1em;
+     margin-left: 1em; 
     padding: 2em;
 }
 
