@@ -64,7 +64,7 @@
         font-size: 32px;
         margin-top: 0;
         text-align: center;
-         margin-top: -0.8em;
+        margin-top: -0.8em;
     }
 
     .header-title p {
@@ -101,7 +101,7 @@
 
     .card-header h3 {
         font-size: 22px;
-        margin-bottom: 1.5em;
+        /* margin-bottom: 1.5em; */
     }
 
     .button {
@@ -179,7 +179,7 @@
 
     .card-header h3 {
         font-size: 20px;
-        margin-bottom: 1em;
+        /* margin-bottom: 1em; */
     }
 
     .button {

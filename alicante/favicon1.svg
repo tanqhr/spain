@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+
+<style>
+  .wave {
+    animation: wave 2s ease-in-out infinite;
+  }
+
+  .sun {
+    animation: pulse 1.8s infinite;
+  }
+
+  @keyframes wave {
+    0%,100% { transform: translateY(0); }
+    50% { transform: translateY(2px); }
+  }
+
+  @keyframes pulse {
+    0%,100% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+  }
+</style>
+
+<!-- Sea -->
+<path class="wave" d="M0 40 Q16 35 32 40 T64 40 V64 H0 Z" fill="#1e90ff"/>
+
+<!-- Sun -->
+<circle class="sun" cx="32" cy="25" r="9" fill="#FFD700"/>
+
+</svg>

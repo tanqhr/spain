@@ -11,6 +11,7 @@
 
 html {
     box-sizing: border-box;
+     scroll-behavior: smooth;
 }
 
 img {
@@ -73,7 +74,7 @@ section {
 
 .section-cards .card:hover, .card1:hover, .card2:hover, .card3:hover, .card4:hover, .card5:hover, .card6:hover,
  .card7:hover,.card8:hover, .card9:hover, .card10:hover, .card11:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .card, .card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9, .card10, .card11{
@@ -269,4 +270,34 @@ footer {
 
 
 
+::-webkit-scrollbar {
+  width: 8px;
+}
 
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(150, 150, 150, 0.5);
+  border-radius: 4px;
+}
+
+.back-to-top {
+  position: fixed; 
+  bottom: 70px;
+  right: 5px;
+  /* border: 0.1px solid #000; */
+  background-color: transparent;
+  color: black;
+  padding: 5px; 
+  border-radius: 1.5em; 
+  text-decoration: none;
+  box-shadow: 0 0.5rem 1rem 0.5rem rgba(101, 97, 97, 0.3); 
+  z-index: 1000;
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.2s ease;
+   display: none;
+  
+}
