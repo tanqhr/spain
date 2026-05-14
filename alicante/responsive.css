@@ -1,0 +1,137 @@
+
+@media (max-width: 1024px){
+
+    .header-title h1{
+        font-size: 30px;
+    }
+
+    .header-title p{
+        font-size: 17px;
+    }
+
+    article{
+        padding: 1.5em;
+    }
+
+    article img{
+        max-height: 450px;
+    }
+
+    .contain p{
+        font-size: 17px;
+    }
+
+    .buttons{
+        justify-content: center;
+        gap: 1em;
+        flex-wrap: wrap;
+    }
+
+    #btn-back, #btn-next{
+        padding: 0.7em 2.5em;
+    }
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px){
+
+    .header-title h1{
+        font-size: 24px;
+    }
+
+    .header-title p{
+        font-size: 15px;
+    }
+
+    article{
+        padding: 1.2em;
+    }
+
+    /* article img{
+        max-height: 380px;
+    } */
+
+      article img{
+        width: 100%;
+        height: auto;
+        max-height: 550px;  
+        object-fit: cover;
+    }
+/* 
+     .inner{
+        grid-template-columns: 1fr;
+    }
+         article img{
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+  
+} */
+
+    .contain p{
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .buttons{
+        flex-direction: column;
+        align-items: center;
+        gap: 0.8em;
+    }
+
+    #btn-back, #btn-next{
+        width: 80%;
+        max-width: 280px;
+    }
+}
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 480px){
+
+    .header-title h1{
+        font-size: 20px;
+        padding-top: -3em;
+    }
+
+    .header-title p{
+        font-size: 14px;
+    }
+
+    article img{
+        min-height: 180px;
+         cursor: zoom-in;
+        
+    }
+  
+
+     /* article img{
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+    border-radius: 15px;
+} */
+
+article img:hover{
+     filter: brightness(1.05);
+    transform: scale(1.03);
+    transition: 0.3s ease;
+
+}
+
+
+    .contain p{
+        font-size: 14px;
+    }
+
+    #btn-back, #btn-next{
+        width: 90%;
+        font-size: 13px;
+    }
+}
+

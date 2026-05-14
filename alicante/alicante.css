@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600');
 /* @import url("https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|PT+Serif:400,400i,700,700i"); */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');  */
 * {
     padding: 0;
     margin: 0;
@@ -22,8 +24,25 @@ body {
     min-height: 100vh;
     justify-content: center;
     background-color: #fff;
-    font: 16px/1.5 'Source Sans Pro', sans-serif; 
+    font: 16px/1.6 'Source Sans Pro', sans-serif; 
+    color: #222;
 }
+
+
+p{
+    font-size: 16px;
+    line-height: 1.8;
+    opacity: 0.85;
+}
+.header-title h1{
+    letter-spacing: -0.5px;
+}
+
+.header-title p{
+    font-style: italic;
+    opacity: 0.7;
+}
+
 
 ::-webkit-scrollbar {
   width: 8px;
@@ -87,7 +106,7 @@ body {
     margin-bottom: 0.5em;
     font-size: 36px;
     font-weight: 550;
-    font-style: italic;
+    font-style: italic; 
     opacity: 0.7;
     margin-top: -1em;
 }
@@ -116,7 +135,7 @@ article {
 }
 
 .contain h2{
-    font-style: italic;
+    font-style: italic; 
     opacity: 0.7;
     font-weight: 550;
     margin-bottom: 1em;
@@ -163,119 +182,15 @@ article img{
     object-fit: cover;
     border-radius: 15px;
     box-shadow: 0 0.5rem 1.2rem rgba(0,0,0,0.25);
-    transition: transform 0.4s ease;
+    transition: transform 0.3s ease;
+    cursor: zoom-in;
 }
+
 
 
 article img:hover{
+       filter: brightness(1.05);
     transform: scale(1.03);
-}
-
-
-@media (max-width: 1024px){
-
-    .header-title h1{
-        font-size: 30px;
-    }
-
-    .header-title p{
-        font-size: 17px;
-    }
-
-    article{
-        padding: 1.5em;
-    }
-
-    article img{
-        max-height: 450px;
-    }
-
-    .contain p{
-        font-size: 17px;
-    }
-
-    .buttons{
-        justify-content: center;
-        gap: 1em;
-        flex-wrap: wrap;
-    }
-
-    #btn-back, #btn-next{
-        padding: 0.7em 2.5em;
-    }
-}
-
-/* =========================
-   MOBILE
-========================= */
-
-@media (max-width: 768px){
-
-    .header-title h1{
-        font-size: 24px;
-    }
-
-    .header-title p{
-        font-size: 15px;
-    }
-
-    article{
-        padding: 1.2em;
-    }
-
-    /* article img{
-        max-height: 380px;
-    } */
-      article img{
-        width: 100%;
-        height: auto;
-        max-height: 450px;   /* ↑ по-голямо */
-        object-fit: cover;
-    }
-
-    .contain p{
-        font-size: 15px;
-        line-height: 1.6;
-    }
-
-    .buttons{
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        gap: 0.8em;
-    }
-
-    #btn-back, #btn-next{
-        width: 80%;
-        max-width: 280px;
-    }
-}
-
-/* =========================
-   SMALL MOBILE
-========================= */
-
-@media (max-width: 480px){
-
-    .header-title h1{
-        font-size: 20px;
-    }
-
-    .header-title p{
-        font-size: 14px;
-    }
-
-    article img{
-        max-height: 400px;
-    }
-
-    .contain p{
-        font-size: 14px;
-    }
-
-    #btn-back, #btn-next{
-        width: 90%;
-        font-size: 13px;
-    }
+    transition: 0.3s ease;
 }
 

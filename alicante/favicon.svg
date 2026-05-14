@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+
+  <style>
+    .spin {
+      transform-origin: 32px 32px;
+      animation: rotate 3s linear infinite;
+    }
+
+    .pulse {
+      animation: pulse 1.5s ease-in-out infinite;
+    }
+
+    @keyframes rotate {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.15); opacity: 0.8; }
+    }
+  </style>
+
+  <!-- Spain circle -->
+  <circle cx="32" cy="32" r="30" fill="#AD1519"/>
+
+  <!-- Sun / travel glow -->
+  <circle class="pulse" cx="32" cy="32" r="10" fill="#FFD700"/>
+
+  <!-- Airplane icon -->
+  <g class="spin" fill="white">
+    <path d="M32 18 L36 32 L32 30 L28 32 Z"/>
+    <rect x="31" y="30" width="2" height="16"/>
+  </g>
+
+</svg>

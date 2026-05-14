@@ -1,21 +1,22 @@
-const scrollBtn = document.querySelector(".back-to-top");
+const favicon = document.getElementById("favicon");
 
-window.addEventListener("scroll", () => {
+const frames = [
+    "./favicon/favicon6.png",
+     "./favicon/favicon5.png",
+    "./favicon/favicon7.png",
+    "./favicon/favicon8.png"
+   
+];
 
-    if(window.scrollY > 300){
-        scrollBtn.style.display = "flex";
-        scrollBtn.style.justifyContent = "center";
-        scrollBtn.style.alignItems = "center";
-    } else {
-        scrollBtn.style.display = "none";
-    }
-});
+let i = 0;
 
-scrollBtn.addEventListener("click", () => {
+function animateFavicon(){
 
-    window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-    });
+    favicon.href = frames[i];
 
-});
+    i = (i + 1) % frames.length;
+
+    setTimeout(animateFavicon, 900);
+}
+
+animateFavicon();
