@@ -100,7 +100,7 @@ html {
         
     }
     #altea{
-        height: 180px;
+        height: 250px;
     }
 
     }
@@ -109,7 +109,7 @@ html {
  @media (max-width: 400px) {
      
    #altea{
-    height: 120px;
+    height: 180px;
    }
 } 
 @media (min-width: 600px) {
