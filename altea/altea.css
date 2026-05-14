@@ -88,7 +88,7 @@ body {
 
 .back-to-top {
   position: fixed; 
-  bottom: 20px;
+  bottom: 70px;
   right: 5px;
   /* border: 0.1px solid #000; */
   background-color: transparent;
@@ -96,11 +96,13 @@ body {
   padding: 5px; 
   border-radius: 1.5em; 
   text-decoration: none;
-    box-shadow: 0 0.5rem 1rem 0.5rem rgba(101, 97, 97, 0.3); 
+  box-shadow: 0 0.5rem 1rem 0.5rem rgba(101, 97, 97, 0.3); 
   z-index: 1000;
-   opacity: 1;
+  opacity: 1;
   visibility: visible;
   transition: all 0.2s ease;
+   display: none;
+  
 }
 
 .header-title{
