@@ -19,3 +19,9 @@ scrollBtn.addEventListener("click", () => {
     });
 
 });
+
+ if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('./sw.js')
+            .then(() => console.log("PWA ready"))
+            .catch(err => console.log(err));
+        }
