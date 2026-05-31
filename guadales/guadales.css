@@ -141,8 +141,8 @@ article {
     /* flex: 0 0 35%; */
     box-shadow: 0 0.3rem 1rem 0.3rem rgba(0,0,0,0.3); 
     margin: 1em;
-     background-color: rgb(230, 244, 243);
-    border-radius: 90px 10px;
+    background-color: rgb(230, 244, 243);
+    border-radius: 15px 50px;
     padding: 2em;
     justify-content: space-between;
     margin-bottom: 2em;

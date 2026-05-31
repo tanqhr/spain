@@ -3,7 +3,7 @@ self.addEventListener("install", e => {
         caches.open("crm-cache").then(cache => {
             return cache.addAll([
                 "./",
-                "./index.html"
+                "./index.html"  
             ]);
         })
     );

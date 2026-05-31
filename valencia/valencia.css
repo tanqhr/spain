@@ -1,5 +1,6 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap&subset=cyrillic'); */
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap&subset=latin,cyrillic');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap&subset=latin,cyrillic'); */
 /* @import url("https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|PT+Serif:400,400i,700,700i"); */
 * {
     padding: 0;
@@ -24,7 +25,7 @@ body {
     min-height: 100vh;
     justify-content: center;
     background-color: #fff;
-    font: 16px/1.5 'Source Sans Pro', sans-serif; 
+    font: 16px/1.5 'Source Sans Pro', 'Inter', sans-serif; 
 
 }
 ::-webkit-scrollbar {
@@ -121,13 +122,11 @@ body {
 
 
 article {
-    /* display: flex; */
     text-align: center;
-    /* flex: 0 0 35%; */
     box-shadow: 0 0.3rem 1rem 0.3rem rgba(0,0,0,0.3); 
     margin: 1em;
     background-color: rgb(203, 222, 228);
-    border-radius: 15px 50px;
+    border-radius: 30px 50px 15px 10px;
     padding: 2em;
     justify-content: space-between;
     margin-bottom: 2em;
@@ -167,14 +166,3 @@ footer {
     
 }
 
-/* @media (min-width: 600px) {
-    html { font-size: 14px; }
-}
-
-@media (min-width: 900px) {
-    html { font-size: 16px; }
-}
-
-@media (min-width: 1200px) {
-    html { font-size: 18px; }
-} */
