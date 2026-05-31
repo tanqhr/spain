@@ -150,6 +150,10 @@ article {
     
 }
 
+.description {
+    padding: 0 10em 0 10em;
+}
+
 .orduna, .museum {
      background-color: rgb(238, 245, 245);; 
  
