@@ -142,9 +142,7 @@ img#casa{
     height: 450px;
 }
 
-picture#mobileSource{
-    height: 550px;
-}
+
     .images {
         display: flex;
         flex-direction: column;

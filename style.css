@@ -222,15 +222,26 @@ section {
 }
 
 
-.button {
+/* .button {
     padding-top: 10em;
     display: flex;
     justify-content: center;
     align-items: center;
     
-} 
+}  */
 
-button {
+
+.buttons{
+    text-align: center;
+    align-items: center;
+    padding-top: 10em;
+    
+}
+
+
+
+#btn-more {
+    text-decoration: none;
     padding: 0.7em 3.5em;
     background: black;
     color: white;
@@ -243,20 +254,17 @@ button {
     border: none;
     margin: 1em;
     transition-duration: 0.3s;
+    font-size: 14px;
     
 }
-button:hover{
-    color: black;
-    background-color: white; 
-    cursor: pointer;  
-} 
 
-#btn-more {
-    text-decoration: none;
-    color: inherit; 
-}
+
+
 #btn-more:hover{
-    color: inherit;
+    color: black;
+    background-color: rgb(241, 245, 247);
+    box-shadow: 0 0.5rem 1rem 0.5rem rgba(101, 97, 97, 0.3); 
+    cursor: pointer;  
 } 
 
 footer {

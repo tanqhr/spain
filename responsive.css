@@ -11,11 +11,11 @@
         max-width: 2200px;
         gap: 2em;
     }
-    .button {
+    .buttons {
         padding-top: 14em;
     }
 
-    button {
+   #btn-more {
         padding: 1em 4.5em;
 
         font-size: 20px;
@@ -104,11 +104,11 @@
         /* margin-bottom: 1.5em; */
     }
 
-    .button {
+    .buttons {
         padding-top: 12em;
     }
 
-    button {
+    #btn-more {
         padding: 0.7em 2.5em;
         font-size: 14px;
     }
@@ -150,7 +150,8 @@
     }
 
     .inner {
-        flex-direction: column;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
         gap: 1.5em;
         padding: 0.5em;
     }
@@ -182,11 +183,11 @@
         /* margin-bottom: 1em; */
     }
 
-    .button {
+    .buttons {
         padding-top: 12em;
     }
 
-    button {
+   #btn-more {
         /* width: 100%;
         max-width: 220px; */
 
@@ -225,6 +226,13 @@
        
     }
 
+     .inner {
+        flex-direction: column; 
+        gap: 1.5em;
+        padding: 0.5em;
+    }
+
+
     .card,
     .card1,
     .card2,
@@ -245,11 +253,11 @@
         font-size: 18px;
     }
 
-    .button {
+    .buttons {
         padding-top: 10em;
     }
 
-    button {
+    #btn-more{
         font-size: 12px;
          width: auto;
         padding: 0.7em 2.5em;
